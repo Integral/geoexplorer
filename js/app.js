@@ -95309,13 +95309,13 @@ function localDataset() {
     fields: [
       {id: 'id'},
       {id: 'date', type: 'date'},
-      {id: 'POP_MAX'},
-      {id: 'POP_MIN'},
-      {id: 'POP_OTHER'},
-      {id: 'country', 'label': 'Country'},
-      {id: 'NAME', 'label': 'Title'},
-      {id: 'LATITUDE'},
-      {id: 'LONGITUDE'}
+      {id: 'SCALERANK'},
+      {id: 'NATSCALE'},
+      {id: 'LABELRANK'},
+      {id: 'ADM0NAME', 'label': 'Country'},
+      {id: 'NAME', 'label': 'City'},
+      {id: 'lat'},
+      {id: 'lon'}
     ]
   });
   return dataset;
