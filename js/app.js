@@ -895,19 +895,19 @@ function localDataset() {
 		"LS_MATCH": "1",
 		"CHECKME": "0"
 	}
-];
+]
   var dataset = new recline.Model.Dataset({
     records: records,
     fields: [
       {id: 'id'},
       {id: 'date', type: 'date'},
-      {id: 'x'},
-      {id: 'y'},
-      {id: 'z'},
+      {id: 'POP_MAX'},
+      {id: 'POP_MIN'},
+      {id: 'POP_OTHER'},
       {id: 'country', 'label': 'Country'},
-      {id: 'title', 'label': 'Title'},
-      {id: 'lat'},
-      {id: 'lon'}
+      {id: 'NAME', 'label': 'Title'},
+      {id: 'LATITUDE'},
+      {id: 'LONGITUDE'}
     ]
   });
   return dataset;
