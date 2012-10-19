@@ -107,13 +107,6 @@ var ExplorerApp = Backbone.View.extend({
          view: new recline.View.Map({
            model: dataset
          })
-       },
-       {
-         id: 'timeline',
-         label: 'Timeline',
-         view: new recline.View.Timeline({
-           model: dataset
-         })
        }
     ];
 
