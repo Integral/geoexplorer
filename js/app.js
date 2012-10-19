@@ -95307,8 +95307,9 @@ function localDataset() {
   var dataset = new recline.Model.Dataset({
     records: records,
     fields: [
-      {id: 'id'},
-      {id: 'date', type: 'date'},
+      {id: 'POP_MAX'},
+      {id: 'POP_MIN'},
+      {id: 'POP_OTHER'},
       {id: 'SCALERANK'},
       {id: 'NATSCALE'},
       {id: 'LABELRANK'},
